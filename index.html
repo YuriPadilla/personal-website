@@ -11,33 +11,43 @@
         <nav>
             <h1>Personal Website</h1>
             <ul>
-                <li>About Me</li>
-                <li>What I Do</li>
-                <li>What I Want</li>
-                <li>Contact Information</li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#what-i-do">What I Do</a></li>
+                <li><a href="#what-i-want">What I Want</a></li>
+                <li><a href="#contact">Contact Information</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <Figure>
-            <img src="./2022-07-18_Foto_Bewerbung.jpg" alt="Bewerbungsfoto" width="250px">
-            <figcaption>Aktuelles Bewerbungsfoto von mir</figcaption>
-        </Figure>
-        <section>
+        <section id="about-me">
             <h2>About Me</h2>
-            <p>Mi name is Yuri Padilla. I am from Cuba an I have been living here in Germany since about 6 years</p>
+            <Figure>
+                <img src="./2022-07-18_Foto_Bewerbung.jpg" alt="Bewerbungsfoto" width="250px">
+                <figcaption>Bewerbungsfoto 07.2022</figcaption>
+            </Figure>
+            <p><strong>Name:</strong> Yuri Padilla</p>
+            <p><strong>Country:</strong> Cuba</p>
+            <p><strong>Residence:</strong> Munich, Germany</p>
         </section>
-        <section>
+        <section id="what-i-do">
             <h2>What I Do</h2>
             <p>I am actually doing a Web Development Bootcamp, I really enjoy it.</p>
         </section>
-        <section>
+        <section id="what-i-want">
             <h2>What I Want</h2>
             <p>I would like to work in the future as Web Developer and create my own Websites and WebApps</p>
         </section>
-        <section>
+        <section  id="contact">
             <h2>Contact Information</h2>
-            <p>Meine Info</p>
+            <p><strong>Handy:</strong> 017643228572</p>
+            <p><strong>Email:</strong> yuripadilla017@gmail.com</p>
+            <h3>Send a message</h3>
+            <form action="">
+                <input type="text" placeholder="Max Mustermann" style="width:250px;" required/><br>
+                <input type="email" placeholder="maxmustermann@gmail.com" style="width:250px;" required/><br>
+                <input type="text" placeholder="write a message" style="width:400px; height:100px;" required/><br>
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
     <footer>
