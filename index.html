@@ -4,51 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <title>Yuri Padilla</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <h1>Welcome</h1>
         <nav>
-            <h1>Personal Website</h1>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#what-i-do">What I Do</a></li>
-                <li><a href="#what-i-want">What I Want</a></li>
-                <li><a href="#contact">Contact Information</a></li>
+            <ul class="navi">
+                <li class="navi__item"><a href="#about">About</a></li>
+                <li class="navi__item"><a href="#professional-experience">Professional Experience</a></li>
+                <li class="navi__item"><a href="#studies">Studies</a></li>
+                <li class="navi__item"><a href="#it-knowledgment">IT Knowledgment</a></li>
+                <li class="navi__item"><a href="#further-education">Further Education</a></li>
+                <li class="navi__item"><a href="#languages">Languages</a></li>
+                <li class="navi__item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="about-me">
-            <h2>About Me</h2>
-            <Figure>
-                <img src="./2022-07-18_Foto_Bewerbung.jpg" alt="Bewerbungsfoto" width="250px">
-                <figcaption>Bewerbungsfoto 07.2022</figcaption>
-            </Figure>
-            <p><strong>Name:</strong> Yuri Padilla</p>
-            <p><strong>Country:</strong> Cuba</p>
-            <p><strong>Residence:</strong> Munich, Germany</p>
+        <section id="about">
+            <h2 id="top">About</h2>
+            <div class="about">
+                <Figure class="about__foto">
+                    <img src="./2022-07-18_Foto_Bewerbung.jpg" alt="Bewerbungsfoto" width="250px">
+                    <figcaption>Bewerbungsfoto 07.2022</figcaption>
+                </Figure>
+                <div class="about__daten">
+                    <p><strong>Name:</strong> Yuri Padilla</p>
+                    <p><strong>Country:</strong> Cuba</p>
+                    <p><strong>Residence:</strong> Munich, Germany</p>
+                </div>
+            </div>
         </section>
-        <section id="what-i-do">
-            <h2>What I Do</h2>
-            <p>I am actually doing a Web Development Bootcamp, I really enjoy it.</p>
+        <section id="professional-experience">
+            <h2>Professional Experience</h2>
+            <div>
+                <article class="backgrounds">
+                    <p>I am actually doing a Web Development Bootcamp, I really enjoy it.</p>
+                </article>
+            </div>
         </section>
-        <section id="what-i-want">
-            <h2>What I Want</h2>
-            <p>I would like to work in the future as Web Developer and create my own Websites and WebApps</p>
+        <section id="studies">
+            <h2>Studies</h2>
+            <div>
+                <article class="backgrounds">
+                    <p>I would like to work in the future as Web Developer and create my own Websites and WebApps</p>
+                </article>
+            </div>
+        </section>
+        <section id="it-knowledgment">
+            <h2>IT Knowledgment</h2>
+            <div>
+                <article class="backgrounds">
+                    <p>I would like to work in the future as Web Developer and create my own Websites and WebApps</p>
+                </article>
+            </div>
+        </section>
+        <section id="further-education">
+            <h2>Further Education</h2>
+            <div>
+                <article class="backgrounds">
+                    <p>I would like to work in the future as Web Developer and create my own Websites and WebApps</p>
+                </article>
+            </div>
+        </section>
+        <section id="languages">
+            <h2>Languages</h2>
+            <div>
+                <article class="backgrounds">
+                    <p>I would like to work in the future as Web Developer and create my own Websites and WebApps</p>
+                </article>
+            </div>
         </section>
         <section  id="contact">
-            <h2>Contact Information</h2>
-            <p><strong>Handy:</strong> 017643228572</p>
-            <p><strong>Email:</strong> yuripadilla017@gmail.com</p>
-            <h3>Send a message</h3>
-            <form action="">
-                <input type="text" placeholder="Max Mustermann" style="width:250px;" required/><br>
-                <input type="email" placeholder="maxmustermann@gmail.com" style="width:250px;" required/><br>
-                <input type="text" placeholder="write a message" style="width:400px; height:100px;" required/><br>
-                <button type="submit">Send</button>
-            </form>
+            <h2>Contact</h2>
+            <div>
+                <article class="contact__info">
+                    <p><strong>Handy:</strong> 017643228572</p>
+                    <p><strong>Email:</strong> yuripadilla017@gmail.com</p>
+                    <h3>Send a message</h3>
+                    <form action="" class="formulary">
+                        <input type="text" class="formulary__contact" placeholder="Max Mustermann" required/>
+                        <input type="email" class="formulary__contact" placeholder="maxmustermann@gmail.com" required/>
+                        <input type="text" class="formulary__text" placeholder="write a message" required/>
+                        <button type="submit" class="formulary__button">Send</button>
+                    </form>
+                </article>
+            </div>
         </section>
+        <a href="#top" class="go-up">UP</a>
     </main>
     <footer>
 

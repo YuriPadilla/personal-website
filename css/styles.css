@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: white;
+    color: rgb(15, 20, 23);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: rgb(144, 182, 206);
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+} 
+
+.navi {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.navi__item {
+    border-style: solid;
+    border-color: rgb(63, 96, 116);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(199, 206, 210);
+}
+.navi li:hover {
+    background-color: rgb(32, 53, 66);
+    border-color: rgb(63, 96, 116);
+    color: white;
+    box-shadow: 0px 5px 8px rgb(78, 125, 153);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+section {
+    margin: 10px;
+    background-color:  rgb(241, 244, 247);
+    border-color: rgb(63, 96, 116);
+    border-style: solid;
+    border-radius: 10px;
+    margin: 25px;
+}
+h2 {
+    margin: 25px;
+}
+div {
+    margin: 25px;
+}
+.about {
+    display: flex;
+}
+.about__daten {
+    margin: 0px 25px;
+}
+
+.formulary, .contact__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.formulary > * {
+    padding: 5px;
+}
+.formulary__contact {
+    width: 250px;
+}
+.formulary__text {
+    width: 500px;
+    height: 100px;
+}
+
+.go-up {
+    border-color: rgb(63, 96, 116);
+    background-color: rgb(144, 182, 206);
+    border-style: solid;
+    border-radius: 50%;
+    padding: 15px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 10;
+    box-shadow: 0 5px 8px rgb(128, 125, 125);
+}
